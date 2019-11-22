@@ -4,6 +4,7 @@ import withLocale from "../../hocs/withLocale";
 import useTranslation from "./../../hooks/useTranslation";
 import Layout from "../../components/Layout";
 import { LocaleContext } from "./../../context/LocaleContext";
+import fetch from "isomorphic-fetch";
 
 const About = ({ errorCode, seo }) => {
   const { locale } = React.useContext(LocaleContext);

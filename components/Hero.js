@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import fetch from "isomorphic-unfetch";
+import fetch from "isomorphic-fetch";
 
 function Hero(props) {
   const [heroText, setHeroText] = useState("");

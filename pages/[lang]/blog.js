@@ -6,6 +6,7 @@ import useTranslation from "./../../hooks/useTranslation";
 import Layout from "../../components/Layout";
 import PostsList from "../../components/PostsList";
 import { LocaleContext } from "./../../context/LocaleContext";
+import fetch from "isomorphic-fetch";
 
 const Blog = ({ errorCode, seo }) => {
   const { locale } = React.useContext(LocaleContext);

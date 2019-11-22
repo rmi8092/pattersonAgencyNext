@@ -3,6 +3,7 @@ import ContactForm from "../../components/ContactForm";
 import withLocale from "../../hocs/withLocale";
 import getSeoKey from "../../hocs/common";
 import useTranslation from "./../../hooks/useTranslation";
+import fetch from "isomorphic-fetch";
 
 const Contact = ({ errorCode, seo }) => {
   const { t } = useTranslation();

@@ -1,6 +1,6 @@
 import React from "react";
 import Layout from "../../../components/Layout";
-import fetch from "isomorphic-unfetch";
+import fetch from "isomorphic-fetch";
 import getSeoKey from "./../../../hocs/common";
 import useTranslation from "./../../../hooks/useTranslation";
 

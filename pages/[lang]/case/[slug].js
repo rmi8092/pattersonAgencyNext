@@ -2,7 +2,7 @@ import React from "react";
 import Layout from "../../../components/Layout";
 import getSeoKey from "./../../../hocs/common";
 import useTranslation from "./../../../hooks/useTranslation";
-import fetch from "isomorphic-unfetch";
+import fetch from "isomorphic-fetch";
 
 const Case = ({ errorCode, cases }) => {
   const { t } = useTranslation();

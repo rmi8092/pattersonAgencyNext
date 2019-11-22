@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import fetch from "isomorphic-unfetch";
+import fetch from "isomorphic-fetch";
 
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import styled from "styled-components";

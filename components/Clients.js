@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import useTranslation from "../hooks/useTranslation";
-import fetch from "isomorphic-unfetch";
+import fetch from "isomorphic-fetch";
 
 function Clients(props) {
   const { t } = useTranslation();
